@@ -95,6 +95,10 @@ a {
   z-index: -1;
   content: "";
 }
+.education__list,
+.experiance__list{
+  padding:0 15px ;
+}
 
 .experiance__list a {
   font-weight: bold;
