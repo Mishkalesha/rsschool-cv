@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  font-family: "Roboto";
+  font-size: 18px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+.wrapper {
+  padding: 0 5px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cv {
+  display: flex;
+  overflow: hidden;
+}
+.main {
+  width: 60%;
+}
+.right-panel {
+  width: 40%;
+}
+.main,
+.right-panel {
+  padding: 20px 15px;
+}
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #474747;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-me figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about-me figure figcaption {
+  font-size: 22px;
+  margin-top: 20px;
+}
+.about-me__headline {
+  font-size: 26px;
+}
+.about-me__photo {
+  max-width: 350px;
+  max-height: 350px;
+  width: 100%;
+  height: auto;
+  border: 15px solid #ff9900;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.about-me__photo img {
+  max-width: 350px;
+  max-height: 350px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.experiance__headline,
+.education__headline,
+.for-me__headline {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+}
+.experiance__headline:before,
+.education__headline:before,
+.for-me__headline:before {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  background-color: #ff9900;
+  z-index: -1;
+  content: "";
+}
+.education__list,
+.experiance__list{
+  padding:0 15px ;
+}
+
+.experiance__list a {
+  font-weight: bold;
+  transition: color 0.25s ease;
+}
+.experiance__list a:hover {
+  color: #ff9900;
+}
+
+.skills{
+  margin-top: 30px;
+}
+.contacts__headline,
+.skills__headlines {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  font-size: 18px;
+  color: white;
+  border: 5px solid #ff9900;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+.right-panel {
+  color: white;
+}
+.contacts__adress,
+.contacts__web,
+.contacts__phone {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+.contacts__adress .fa-map-marker-alt,
+.contacts__web .fa-globe,
+.contacts__phone .fa-phone {
+  margin-right: 10px;
+  font-size: 22px;
+  color: #ff9900;
+}
+.contacts__container {
+  display: flex;
+  flex-direction: column;
+}
+.contacts__container a{
+  transition: color 0.24s ease;
+}
+.contacts__container a:hover{
+  color: #ff9900;
+}
+.contacts__subtitle{
+  font-weight: bold;
+  
+}
+.checked{
+  color: #ff9900;
+}
+.skills__html,
+.skills__css,
+.skills__js{
+  margin-bottom: 15px;
+}
+.footer{
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff9900;
+}
+.footer__rsschool_img-small{
+  display: inline-block;
+  width: 100px;
+}
